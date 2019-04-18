@@ -1,0 +1,182 @@
+{
+  "Week 1": {
+    "Monday": {
+      "segments": [ { "distanceMin": 4, "distanceMax": 6, "units": 2, "pace": 4  } ]
+    },
+    "Tuesday": {
+      "segments": [ { "distanceMin": 5, "distanceMax": 7, "units": 2, "pace": 4  } ]
+    },
+    "Wednesday": {
+      "segments": [ { "distanceMin": 4, "units": 2, "pace": 5  } ]
+    },
+    "Thursday": {},
+    "Friday": {
+      "segments": [ { "distanceMin": 4, "distanceMax": 6, "units": 2, "pace": 4  } ]
+    },
+    "Saturday": {
+      "segments": [ { "distanceMin": 5, "distanceMax": 6, "units": 2, "pace": 4  } ]
+    },
+    "Sunday": {
+      "segments": [ { "distanceMin": 11, "distanceMax": 13, "units": 2, "pace": 4  } ]
+    }
+  },
+  "Week 2": {
+    "Monday": {},
+    "Tuesday": {
+      "segments": [ { "distanceMin": 6, "distanceMax": 7, "units": 2, "pace": 5  } ]
+    },
+    "Wednesday": {
+      "segments": [ { "distanceMin": 4, "distanceMax": 6,  "units": 2, "pace": 4  } ]
+    },
+    "Thursday": {
+      "segments": [ { "distanceMin": 7, "units": 2, "pace": 5  } ]
+    },
+    "Friday": {
+      "segments": [ { "distanceMin": 4, "distanceMax": 6,  "units": 2, "pace": 4  } ]
+    },
+    "Saturday": {
+      "segments": [ { "distanceMin": 5, "units": 2, "pace": 5  } ]
+    },
+    "Sunday": {
+      "segments": [ { "distanceMin": 12, "distanceMax": 13, "units": 2, "pace": 5  } ]
+    }
+  },
+  "Week 3": {
+    "Monday": {},
+    "Tuesday": {
+      "segments": [
+        { "distanceMin": 2, "units": 2, "pace": 4  },
+        { 
+          "repeat": 6,
+          "work": {
+            "distance": 300,
+            "units": 0,
+            "pace": 1
+          },
+          "rest": {
+            "min": 30
+          },
+          "recover": {
+            "distance": 300,
+            "units": 0,
+            "pace": 3
+          },
+          "notes": "6 x (300 meters uphill at 10K pace, 30 seconds rest and 300 meters downhill at marathon pace)"
+        },
+        { "distanceMin": 2, "units": 2, "pace": 4  }
+      ]
+    },
+    "Wednesday": {
+      "segments": [ { "distanceMin": 4, "distanceMax": 6, "units": 2, "pace": 4  } ]
+    },
+    "Thursday": {
+      "segments": [ { "distanceMin": 4, "distanceMax": 6, "units": 2, "pace": 4  } ]
+    },
+    "Friday": {
+      "segments": [
+        { "distanceMin": 2, "units": 2, "pace": 4  },
+        { 
+          "repeat": 2,
+          "work": {
+            "distance": 2,
+            "units": 2,
+            "pace": 2
+          },
+          "recover": {
+            "duration": 180,
+            "pace": 4
+          },
+          "notes": "2 x (2 miles at half marathon pace with a 3 minute easy jog in between)"
+        },
+        { "distanceMin": 2, "units": 2, "pace": 4  }
+      ]
+    },
+    "Saturday": {
+      "segments": [
+        { "distanceMin": 4, "distanceMax": 6, "units": 2, "pace": 4  }
+      ]
+    },
+    "Sunday": {
+      "segments": [
+        { "duration": 3600, "pace": 4  },
+        { 
+          "repeat": 10,
+          "work": {
+            "duration": 60,
+            "pace": 0
+          },
+          "recover": {
+            "duration": 60,
+            "pace": 3
+          },
+          "notes": "10 x (1 minute at 5K pace with 1 minute at marathon pace in between)"
+        },
+        { "duration": 1200, "pace": 4  }
+      ]
+    }
+  },
+  "Week 4": {
+    "Monday": {},
+    "Tuesday": {
+      "segments": [
+        { "distanceMin": 2, "units": 2, "pace": 4  },
+        { 
+          "repeat": 5,
+          "work": {
+            "distance": 1,
+            "units": 1,
+            "pace": 1
+          },
+          "rest": {
+            "min": 120
+          },
+          "notes": "5 x (1K at 10K pace and 2 minutes rest)"
+        },
+        { 
+          "repeat": 5,
+          "work": {
+            "distance": 200,
+            "units": 0,
+            "pace": 0
+          },
+          "rest": {
+            "min": 30
+          },
+          "notes": "5 x (200 meters at 5K pace and 30 seconds rest)"
+        },
+        { "distanceMin": 2, "units": 2, "pace": 4  }
+      ]
+    },
+    "Wednesday": {
+      "segments": [ { "distanceMin": 4, "distanceMax": 6, "units": 2, "pace": 4  } ]
+    },
+    "Thursday": {
+      "segments": [ { "distanceMin": 6, "distanceMax": 7, "units": 2, "pace": 5  } ]
+    },
+    "Friday": {
+      "segments": [ { "distanceMin": 4, "distanceMax": 6, "units": 2, "pace": 4  } ]
+    },
+    "Saturday": {
+      "segments": [
+        { "distanceMin": 1.5, "units": 2, "pace": 4  },
+        { 
+          "repeat": 3,
+          "work": {
+            "distance": 3,
+            "units": 2,
+            "pace": 3
+          },
+          "rest": {
+            "min": 120,
+            "max": 180
+          },
+          "notes": "4 x (3 miles at marathon pace and 2 to 3 minutes rest)"
+        },
+        { "distanceMin": 1.5, "units": 2, "pace": 4  }
+      ]
+    },
+    "Sunday": {
+      "segments": [ { "distanceMin": 4, "distanceMax": 6, "units": 2, "pace": 4  } ]
+    }
+  }
+}
